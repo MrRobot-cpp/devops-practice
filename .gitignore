@@ -1,0 +1,33 @@
+# Node.js (frontend)
+node_modules/
+.next/
+dist/
+build/
+npm-debug.log
+yarn-error.log
+pnpm-debug.log
+
+# Python (backend)
+venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.db
+*.sqlite3
+.env
+
+# Docker
+*.log
+docker-compose.override.yml
+.docker/
+
+# IDE/editor stuff
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS junk
+.DS_Store
+Thumbs.db

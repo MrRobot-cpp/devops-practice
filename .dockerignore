@@ -1,0 +1,23 @@
+# Git
+.git
+.gitignore
+
+# Node.js junk
+node_modules
+npm-debug.log
+yarn-error.log
+
+# Python junk
+venv
+__pycache__
+*.pyc
+*.pyo
+*.pyd
+
+# IDE/editor junk
+.vscode
+.idea
+
+# OS junk
+.DS_Store
+Thumbs.db
