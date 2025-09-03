@@ -43,7 +43,7 @@ jobs:
         with:
           context: ./frontend
           push: true
-          tags: ${{ secrets.DOCKER_IMAGE }}-frontend:dev
+          tags: ${{ secrets.DOCKER_IMAGE }}-frontend:${{ github.sha }}
 
       # Build and push backend image
       - name: Build & Push Backend Image
@@ -51,4 +51,4 @@ jobs:
         with:
           context: ./backend
           push: true
-          tags: ${{ secrets.DOCKER_IMAGE }}-backend:dev
+          tags: ${{ secrets.DOCKER_IMAGE }}-backend:${{ github.sha }}
